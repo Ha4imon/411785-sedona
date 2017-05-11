@@ -1,0 +1,255 @@
+body {
+  color: #000000;
+  font-size: 14px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  margin: 0;
+  padding: 0;
+  
+  background-color: #f2f2f2;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.2); 
+  
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.navigation {
+  position: relative;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  background-color: #ffffff;
+  
+  padding: 0 75px;
+  width: 1050px;
+}
+
+.navigation .block-logo {
+  width: 140px;
+}
+
+.block-logo .logo {
+  position: absolute;
+  top: 0;
+  left: 530px;
+}
+
+.navigation .block-navigation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  min-height: 55px;
+  min-width: 100px;
+  max-width: 150px;
+  
+  font-weight: bold;
+}
+
+.preview-background {
+  background-image: url(../img/background-intro.jpg);
+  background-position: 0 -55px;
+  background-repeat: no-repeat;
+  
+  min-height: 515px;
+  width: 1200px;
+}
+
+.preview-resons {
+  display: flex;
+  flex-direction: column;
+  
+  background-color: #ffffff;
+  
+  min-height: 210px;
+}
+
+.preview-resons .title-preview {
+  font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+  margin-top: 55px;
+  
+}
+
+.preview-resons .text-preview {
+  color: #333333;
+  margin-top: 28px;
+}
+
+.block-resons {
+  display: flex;
+  min-height: 256px;
+  width: 1200px;
+}
+
+.block-resons  .block-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  color: #ffffff;
+  line-height: 21px;
+
+  background-color: #81b3d2;
+  
+  min-height: 255px;
+  width: 400px;
+}
+
+.block-text .title-resons {
+  font-size: 21px;
+}
+
+.block-resons .block-photo1 {
+  background-image: url(../img/real-town.jpg);
+  min-height: 255px;
+  width: 800px;
+}
+
+.block-feature {
+  display: flex;
+  min-height: 330px;
+  width: 1200px;
+}
+
+.block-feature .feature-item {
+  line-height: 21px;
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  position: relative;
+  
+  background-color: #ffffff;
+  
+  width: 400px;
+}
+
+.block-feature .house::before {
+  content: "";
+  display: block;
+  
+  position: absolute;
+  left: 162px;
+  top: 60px;
+  
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/feature-icon1.png);
+  background-repeat: no-repeat;
+}
+
+.block-feature .food::before {
+  content: "";
+  display: block;
+  
+  position: absolute;
+  left: 162px;
+  top: 61px;
+  
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/feature-icon2.png);
+  background-repeat: no-repeat;
+}
+
+.block-feature .gift::before {
+  content: "";
+  display: block;
+  
+  position: absolute;
+  left: 168px;
+  top: 56px;
+  
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/feature-icon3.png);
+  background-repeat: no-repeat;
+}
+
+.feature-item .feature-name {
+  font-size: 21px;
+  margin-top: 160px;
+}
+
+.feature-item .feature-text  {
+  color: #333333;
+  margin-top: 25px;
+  max-width: 285px;
+}
+
+.devils-bridge {
+  flex-direction: row-reverse;
+}
+
+.block-resons .block-photo2 {
+  background-image: url(../img/devils-bridge.jpg);
+  min-height: 255px;
+  width: 800px;
+}
+
+.block-resons .other-resons {
+  background-color: #eeeeee;
+}
+
+.other-resons .title-other-resons {
+  color: #000000;
+  font-size: 21px;
+  max-width: 150px;
+}
+
+.other-resons .text-other-resons {
+  color: #333333; 
+  max-width: 270px;
+}
+
+.block-offer {
+  background-color: #ffffff;
+  
+  height: 291px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
