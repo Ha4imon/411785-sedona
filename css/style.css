@@ -218,24 +218,133 @@ body {
 }
 
 .block-offer {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  
+  
   background-color: #ffffff;
   
   height: 291px;
 }
 
+.block-offer .title-offer { 
+  line-height: 24px;
+  font-size: 30px;
+  
+  margin-top: 55px
+}
+
+.block-offer .text-offer {
+  color: #333333;
+  line-height: 24px;
+  margin-top: 32px;
+}
+
+.block-offer .search-btn {
+  position: absolute;
+  bottom: 0;
+  left: 315px;
+  
+  background-color: #766357;
+  
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  
+  min-height: 86px;
+  width: 568px;
+}
+
+.offer-hotel {
+  height: 473px;
+  overflow: hidden;
+}
+
+.offer-hotel .pop-up {
+  display: none;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  background-color: #ffffff;
+  min-height: 119px;
+}
+
+.main-footer .hashtag-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.hashtag-footer a {
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-footer .footer-social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.footer-social-buttons .social-icon {
+  background-color: #81b3d2;
+  background-repeat: no-repeat;
+  background-position: center; 
+  
+  margin-right: 6px;
+  height: 48px;
+  width: 46px;
+}
+
+.footer-social-buttons .icon-twitter {
+  background-image: url("../img/icon-tw.png");  
+}
+
+.footer-social-buttons .icon-facebook {
+  background-image: url("../img/icon-fb.png");
+}
+
+.footer-social-buttons .icon-youtube {
+  background-image: url("../img/icon-yt.png");
+}
+
+.main-footer .block-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  width: 400px;
+}
 
 
 
+.block-footer .icon-html-academy::after {
+  background-image: url("../img/sprite-htm-academy.png");
+  content: "";
+  
+  display: inline-block;
 
-
-
-
-
-
-
-
-
-
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 40px;
+  width: 112px;
+}
 
 
 
