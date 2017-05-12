@@ -12,7 +12,7 @@
 <body>
   <header class="container">
     <nav class="navigation">
-      <div class="block-navigation ">Информация</div>
+      <div class="block-navigation block-information">Информация</div>
       <div class="block-navigation">Фото и видео</div>
       <div class="block-logo">
         <a class="logo" href="#">
@@ -89,24 +89,34 @@
       <div class="map">
         <img src="img/map.jpg" alt="Карта Седона" width="1200" height="593">
       </div>
-      <form class=pop-up>
-        <ul>
-          <li>
-            <label for="date-in">Дата заезда:</label>
-            <input id="date-in" type="date">
+      <form class=pop-up action="https://echo.htmlacademy.ru" method="get">
+        <ul class="feedback">
+          <li class="date-group">
+            <label class="text-date" for="date-begin">Дата заезда:</label>
+            <input type="text" id="date-begin" name="date-begin" value="24 апреля 2017">
+            <div class="date-icon"></div>
           </li>
-          <li>
-            <label for="date-out">Дата выезда:</label>
-            <input id="date-out" type="date">
+          <li class="date-group">
+            <label class="text-date" for="date-end">Дата выезда:</label>
+            <input type="text" id="date-end" name="date-end" value="4 июля 2017">
+            <div class="date-icon"></div>
           </li>
-          <li>
-            <label for="man">Взрослые:</label>
-            <input id="man" type="number">
-            <label for="child">Дети:</label>
-            <input id="child" type="number">
+          <li class=adults-group>
+            <div class="adults group">
+              <label for="amount-adults">Взрослые:</label>
+              <button class="btn number-deduct" type="button"></button>
+              <input class="btn" type="text" id="amount" name="amount-adults" value="2">
+              <button class="btn number-add" type="button"></button>
+            </div>
+            <div class="kids group">
+              <label for="amount-kids">Дети:</label>
+              <button class="btn number-deduct" type="button"></button>
+              <input class="btn" type="text" id="amount-kids" name="amount-kids" value="0">
+              <button class="btn number-add" type="button"></button>
+            </div>
           </li>
         </ul>
-        <input type="submit" value="Найти">
+        <input class="btn-find" type="submit" value="Найти">
       </form>
     </div>
   </main>
